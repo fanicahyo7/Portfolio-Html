@@ -1,0 +1,12 @@
+body a {
+  color: white;
+}
+
+body a:hover {
+  color: yellowgreen;
+}
+
+.header-navbar {
+  background-color: #5353f0;
+}
+/*# sourceMappingURL=main.css.map */

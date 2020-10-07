@@ -1,0 +1,14 @@
+body{
+    a{
+        color: white;
+
+        &:hover{
+            color: yellowgreen;
+        }
+    }
+}
+
+.header-navbar{
+    background-color:rgb(83, 83, 240);
+}
+
