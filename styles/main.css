@@ -6,32 +6,40 @@ body a:hover {
   color: #6270b1;
 }
 
+.navbar {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
 .header-navbar {
   background-color: #5353f0;
 }
 
-.profile-page .button-container {
+.button-container {
   text-align: center;
   margin-top: -106px;
 }
 
-.profile-page .page-header {
-  min-height: 550px;
-  height: 100vh;
-  max-height: 1050px;
-  padding: 0;
-  color: #FFFFFF;
-  position: relative;
-  background-position: center;
-  background-size: cover;
+.button-container .btn-default {
+  margin-right: 8px;
 }
 
-.profile-page .page-header .page-header-small {
+.btn-round {
+  border-width: 1px;
+  border-radius: 30px !important;
+  padding: 11px 23px;
+}
+
+.page-header {
+  min-height: 550px;
+}
+
+.page-header .page-header-small {
   height: 60vh;
   max-height: 440px;
 }
 
-.profile-page .page-header .page-header-image {
+.page-header .page-header-image {
   position: absolute;
   background-size: cover;
   background-position: center center;
@@ -40,24 +48,22 @@ body a:hover {
   z-index: -1;
 }
 
-.profile-page .page-header .container {
+.page-header .container {
   height: 100%;
   z-index: 1;
   text-align: center;
   position: relative;
 }
 
-.profile-page .page-header .container > .content-center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+.page-header .container > .content-center {
   text-align: center;
-  padding: 0 15px;
+  padding: 100px 15px;
   color: #FFFFFF;
   width: 100%;
-  max-width: 880px;
+}
+
+.cc-profile-image a {
+  position: relative;
 }
 
 .cc-profile-image img {
@@ -73,6 +79,49 @@ body a:hover {
   transition: all .3s ease-out;
 }
 
+.cc-profile-image a:hover img {
+  -webkit-transform: scale(1.06, 1.06);
+  transform: scale(1.06, 1.06);
+}
+
+.cc-profile-image a:hover:before {
+  -webkit-animation: none;
+  animation: none;
+}
+
+.cc-skill-image a:hover img {
+  -webkit-transform: scale(1.06, 1.06);
+  transform: scale(1.06, 1.06);
+}
+
+.cc-skill-image a:hover:before {
+  -webkit-animation: none;
+  animation: none;
+}
+
+.cc-skill-image img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  position: relative;
+  height: 200px;
+  width: 180px;
+  padding: 0;
+  margin: 0;
+  border: 15px solid transparent;
+  z-index: 1;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.skill-text {
+  font-size: 10px;
+}
+
+.row-centered {
+  text-align: center;
+}
+
 .category {
   text-transform: uppercase;
   font-weight: 700;
@@ -86,9 +135,45 @@ body a:hover {
   cursor: pointer;
 }
 
-.navbar-toggler .navbar-toggler-left {
+.sidebar-collapse .navbar .navbar-toggler-bar {
+  display: block;
   position: relative;
-  left: 0;
-  padding-left: 0;
+  width: 22px;
+  height: 1px;
+  border-radius: 1px;
+  background: #FFFFFF;
+}
+
+.sidebar-collapse .navbar .navbar-toggler-bar + .navbar-toggler-bar {
+  margin-top: 7px;
+}
+
+.sidebar-collapse .navbar .navbar-translate {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  border: 0;
+  border-radius: 0.1875rem;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-body {
+  min-height: 190px;
 }
 /*# sourceMappingURL=main.css.map */
