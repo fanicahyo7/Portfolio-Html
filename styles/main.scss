@@ -13,6 +13,10 @@ body{
 }
 
 .profile-page{
+    .button-container{
+        text-align: center;
+        margin-top: -106px;
+    }
     
     .page-header{
         min-height: 550px;
@@ -58,13 +62,6 @@ body{
             }
         }
     }
-
-    .button-container{
-        text-align: center;
-        margin-top: -106px;
-    }
-
-    
 }
 
 .cc-profile-image{
@@ -88,5 +85,24 @@ body{
     color: #9A9A9A;
 }
 
+.navbar-toggler{
+    width: 37px;
+    height: 27px;
+    outline: 0;
+    cursor: pointer;
 
+    .navbar-toggler-left{
+        position: relative;
+        left: 0;
+        padding-left: 0;
+    }
+}
+
+// .navbar-transparent{
+//     background-color: transparent !important;
+//     -webkit-box-shadow: none;
+//             box-shadow: none;
+//     color: #FFFFFF;
+//     padding-top: 20px;
+// }
 
