@@ -352,16 +352,15 @@ textarea.form-control {
   padding: 0 5px;
   text-align: center;
   height: 30px;
-  width: 30px;
+  width: auto;
   font-weight: 400;
   color: #9A9A9A;
   margin-right: 19px;
   background-color: rgba(222, 222, 222, 0.3);
-  border-radius: 40px;
 }
 
 .nav-pills .nav-item .nav-link.active, .nav-pills .nav-item .nav-link.active:focus, .nav-pills .nav-item .nav-link.active:hover {
-  background-color: #9A9A9A;
+  background-color: #5353f0;
   color: #FFFFFF;
 }
 
