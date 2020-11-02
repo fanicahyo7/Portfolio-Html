@@ -32,6 +32,7 @@ body a:hover {
   background-color: #3541f1;
   color: #FFFFFF;
   border: none;
+  margin-right: 10px;
 }
 
 .profile-page .btn-primary:hover {
@@ -439,5 +440,16 @@ textarea.form-control {
 .gallery figure.cc-effect:hover img {
   -webkit-transition-delay: 0.15s;
   transition-delay: 0.15s;
+}
+
+.gallery figure.cc-effect figcaption::before {
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+  -webkit-transform: scale(0, 0);
+  transform: scale(0, 0);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
 }
 /*# sourceMappingURL=main.css.map */

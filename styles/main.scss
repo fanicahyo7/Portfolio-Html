@@ -30,6 +30,7 @@ body{
         background-color: #3541f1;
         color: #FFFFFF;
         border: none;
+        margin-right: 10px;
 
         &:hover{
             background-color: #6e76e2;
@@ -452,3 +453,16 @@ h4{
   -webkit-transition-delay: 0.15s;
   transition-delay: 0.15s;
 }
+
+.gallery figure.cc-effect figcaption::before {
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    -webkit-transform: scale(0, 0);
+    transform: scale(0, 0);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+  }
+  
+  
