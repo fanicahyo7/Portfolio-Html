@@ -21,7 +21,7 @@ body a:hover {
 }
 
 .header-navbar {
-  background-color: #5353f0;
+  background-color: #3541f1;
 }
 
 .profile-page {
@@ -203,11 +203,17 @@ body a:hover {
           align-items: center;
 }
 
+.bg-kolomtambah {
+  background-color: #3541f1;
+  color: #FFFFFF;
+}
+
 .cc-experience .cc-experience-header {
   padding-top: 60px;
   padding-right: 0px;
   text-align: center;
   color: #fff;
+  background-color: #3541f1;
 }
 
 .cc-education .cc-education-header {
@@ -361,7 +367,7 @@ textarea.form-control {
 }
 
 .nav-pills .nav-item .nav-link.active, .nav-pills .nav-item .nav-link.active:focus, .nav-pills .nav-item .nav-link.active:hover {
-  background-color: #5353f0;
+  background-color: #3541f1;
   color: #FFFFFF;
 }
 
@@ -451,5 +457,23 @@ textarea.form-control {
   transform: scale(0, 0);
   -webkit-transform-origin: 0 0;
   transform-origin: 0 0;
+}
+
+footer {
+  background-color: #3541f1;
+  height: 105px;
+}
+
+footer .cc-sosmed {
+  margin-top: 15px;
+}
+
+footer .btn-link {
+  color: #FFFFFF;
+}
+
+footer .foot p {
+  color: #FFFFFF;
+  margin-bottom: 0px;
 }
 /*# sourceMappingURL=main.css.map */

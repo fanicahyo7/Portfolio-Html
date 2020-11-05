@@ -19,7 +19,8 @@ body{
   }
 
 .header-navbar{
-    background-color:rgb(83, 83, 240);
+    // background-color:rgb(83, 83, 240);
+    background-color: #3541f1;
 }
 
 
@@ -202,12 +203,19 @@ body{
     }
 }
 
+.bg-kolomtambah{
+    background-color: #3541f1;
+    color: #FFFFFF;
+}
+
+
 .cc-experience{
     .cc-experience-header{
         padding-top: 60px;
         padding-right: 0px;
         text-align: center;
         color: #fff;
+        background-color: #3541f1;
     }
 }
 
@@ -374,7 +382,7 @@ h4{
   }
   
   .nav-pills .nav-item .nav-link.active, .nav-pills .nav-item .nav-link.active:focus, .nav-pills .nav-item .nav-link.active:hover {
-    background-color: rgb(83, 83, 240);
+    background-color:#3541f1;
     color: #FFFFFF;
   }
   
@@ -464,5 +472,23 @@ h4{
     -webkit-transform-origin: 0 0;
     transform-origin: 0 0;
   }
-  
-  
+
+  footer{
+      background-color:  #3541f1;
+      height: 105px;
+        .cc-sosmed{
+          margin-top: 15px;
+        }
+
+        .btn-link{
+            color: #FFFFFF;
+        }
+
+        .foot{
+            
+            p{
+                color: #FFFFFF;
+                margin-bottom: 0px;
+            }
+        }
+  }
