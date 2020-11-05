@@ -10,6 +10,7 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="libraries/bootstrap-4.1.3/css/bootstrap.css">
   <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="libraries/xzoom/dist/xzoom.css" />
 </head>
 
 <body id="top">
@@ -686,6 +687,17 @@
   <script src="libraries/jquery/jquery-3.5.1.min.js"></script>
   <script src="libraries/bootstrap-4.1.3/js/bootstrap.js"></script>
   <script src="scripts/script.js"></script>
+  <script src="libraries/xzoom/dist/xzoom.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.xzoom, .xzoom-gallery').xzoom({
+        zoomWidth: 500,
+        title: false,
+        tint: '#333',
+        Xoffset: 15
+      });
+    });
+  </script>
 </body>
 
 </html>
